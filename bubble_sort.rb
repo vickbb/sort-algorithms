@@ -4,17 +4,17 @@ def bubble_sort(vetor)
   inicio = Time.now
   count = 1
   loops = 0
-  resp  = 0
+  reps  = 0
   
   puts "INICIO:\n"
   puts "Tamanho do vetor:#{tamanho_vetor}\n"
   
     loop do
-    puts "Loop: ##{a += 1}"
+    puts "Loop: ##{loops += 1}"
     trocado = false
     # Tamanho de repetições sempre será o tamanho do vetor -1
     (tamanho_vetor-1).times do |i|
-      puts "Rep: ##{b += 1}"
+      puts "Rep: ##{reps += 1}"
       puts "VETOR: #{vetor}\n\n"
       # Troca a posição somente se o valor direito > esquerdo
       if vetor[i] > vetor[i+1]
